@@ -9,6 +9,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
+<<<<<<< HEAD
       className="min-h-screen pt-40 pb-20 px-8 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 relative overflow-hidden flex items-center"
     >
       <div className="absolute inset-0 overflow-hidden">
@@ -66,6 +67,29 @@ export default function HeroSection() {
             <div className="text-gray-400 font-semibold">Digital Hub</div>
           </div>
         </div>
+=======
+      className="pt-32 pb-32 px-8 bg-gradient-to-b from-yellow-300 to-yellow-100 relative overflow-hidden"
+    >
+      <div className="max-w-4xl mx-auto text-center relative z-10">
+        <h1 className="text-5xl md:text-7xl font-bold text-black mb-6">
+          Create Extraordinary
+          <div className="inline-block">
+            <span className="block"> Digital Experiences</span>
+          </div>
+        </h1>
+
+        <p className="text-xl text-gray-800 mb-8 max-w-2xl mx-auto">
+          We transform your vision into stunning digital solutions that
+          captivate audiences and drive real business results.
+        </p>
+
+        <button
+          onClick={scrollToContact}
+          className="inline-block px-8 py-4 bg-black text-white font-bold text-lg rounded-full hover:bg-gray-900 transition-colors"
+        >
+          Start Your Project →
+        </button>
+>>>>>>> cb5546c7e6e113fdd59ea9a51cdefa3532e77ec5
       </div>
     </section>
   );
